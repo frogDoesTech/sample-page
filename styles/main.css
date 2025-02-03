@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #222;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-container {
+    display: flex;
+}
