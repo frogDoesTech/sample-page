@@ -81,6 +81,14 @@ a:hover {
     color: inherit;
 }
 
+.bg-light {
+    background-color: #aaa;
+}
+
+.bg-dark {
+    background-color: #222;
+}
+
 /* Top navigation */
 
 .top-nav-container {
@@ -90,7 +98,7 @@ a:hover {
 
 .top-nav {
     margin: auto;
-    max-width: 900px;
+    max-width: 60em;
     display: flex;
     justify-content: space-between;
 }
@@ -140,8 +148,8 @@ a:hover {
     font-size: inherit;
     margin: 1em;
     padding: 0.5em 1em;
-    border: none;
-    border-radius: 0.7em;
+    border: 2px solid #222;
+    border-radius: 0.5em;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -150,11 +158,14 @@ a:hover {
 
 .image-section {
     padding: 1em;
+    min-height: 20em;
+    display: flex;
+    align-items: center;
 }
 
 .image-section-container {
     margin: auto;
-    max-width: 900px;
+    max-width: 60em;
     display: flex;
     justify-content: center;
 }
@@ -180,4 +191,68 @@ a:hover {
 
 .image-section-image {
     max-width: 50%;
+}
+
+/* Articles grid */
+
+.article-grid {
+    padding: 1em;
+    min-height: 20em;
+    display: flex;
+    justify-content: center;
+}
+
+.article-grid-container {
+    margin: auto;
+    max-width: 60em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.article {
+    max-width: 15em;
+    margin: 1em;
+}
+
+.article-heading {
+    margin-bottom: 0.5em;
+}
+
+/* Newsletter form */
+.newsletter-form {
+    padding: 1em;
+    min-height: 15em;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-form-container{
+    margin: auto;
+    text-align: center;
+}
+
+.email-input {
+    border: 2px solid #222;
+    border-radius: 0.5em;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.5em 1em;
+}
+
+.cta-dark {
+    background-color: #222;
+    color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 1em;
+    padding: 0.5em 1em;
+    border: 2px solid #222;
+    border-radius: 0.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.page-footer {
+    min-height: 16em;
+    background-color: #222;
 }
