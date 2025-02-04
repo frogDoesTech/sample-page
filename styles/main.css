@@ -112,8 +112,8 @@ a:hover {
 
 .hero-image {
     height: 80vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.75)),
-    url(/assets/images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+        url(/assets/images/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,4 +144,40 @@ a:hover {
     border-radius: 0.7em;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+/* Section image left */
+
+.image-section {
+    padding: 1em;
+}
+
+.image-section-container {
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text-left {
+    margin-right: 2em;
+}
+
+.text-right {
+    margin-left: 2em;
+}
+
+.image-section-heading {
+    margin-bottom: 0.5em;
+}
+
+.image-section-image {
+    max-width: 50%;
 }
