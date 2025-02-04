@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 700;
     src:
-        url(/assets/fonts/Lato-Bold.ttf) format("truetype");
+        url(../assets/fonts/Lato-Bold.ttf) format("truetype");
 }
 
 @font-face {
@@ -12,7 +12,7 @@
     font-style: italic;
     font-weight: 700;
     src:
-        url(/assets/fonts/Lato-BoldItalic.ttf) format("truetype");
+        url(../assets/fonts/Lato-BoldItalic.ttf) format("truetype");
 }
 
 @font-face {
@@ -20,7 +20,7 @@
     font-style: normal;
     font-weight: 400;
     src:
-        url(/assets/fonts/Lato-Regular.ttf) format("truetype");
+        url(../assets/fonts/Lato-Regular.ttf) format("truetype");
 }
 
 @font-face {
@@ -28,7 +28,7 @@
     font-style: italic;
     font-weight: 400;
     src:
-        url(/assets/fonts/Lato-Italic.ttf) format("truetype");
+        url(../assets/fonts/Lato-Italic.ttf) format("truetype");
 }
 
 @font-face {
@@ -36,7 +36,7 @@
     font-style: normal;
     font-weight: 200;
     src:
-        url(/assets/fonts/Lato-Light.ttf) format("truetype");
+        url(../assets/fonts/Lato-Light.ttf) format("truetype");
 }
 
 @font-face {
@@ -44,7 +44,7 @@
     font-style: italic;
     font-weight: 200;
     src:
-        url(/assets/fonts/Lato-LightItalic.ttf) format("truetype");
+        url(../assets/fonts/Lato-LightItalic.ttf) format("truetype");
 }
 
 /* Global */
@@ -113,7 +113,7 @@ a:hover {
 .hero-image {
     height: 80vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-        url(/assets/images/hero.jpg);
+        url(../assets/images/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
